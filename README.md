@@ -10,6 +10,38 @@
 
 ## RoadMap
 
+# Trello Board
+![image](https://trello.com/b/7AhNmfs0/your-own-library)
+
+# Entity Relationship Diagram
+![image](https://trello.com/b/7AhNmfs0/your-own-library)
+
+# Wireframe
+
+![image](./files/Screen%20Shot%2004-27-23%20at%2007.03.18%20PM.PNG)
+![image](./files/Screen%20Shot%2004-27-23%20at%2007.03.25%20PM.PNG)
+
+# Built With
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+![Visual Studio](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)  
+
+![Express](https://img.shields.io/badge/Express.js-4.x-orange.svg)  
+
+![NodeJS](https://img.shields.io/badge/Node.js-14.x-green.svg)  
+
+![MongoDB](https://img.shields.io/badge/MongoDB-4.x-purple.svg)  
+
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) 
+
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+
 
 
 # Author & Contact
