@@ -1,0 +1,44 @@
+.LineItem {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6vw 15.35vw 6.75vw 5.25vw;
+    padding: 1vmin 1vmin;
+    color: var(--text-light);
+    background-color: var(--white);
+    border-top: .1vmin solid var(--tan-3);
+    font-size: 1.2vw;
+  
+    }
+    
+    .LineItem:last-child {
+    border-bottom: .1vmin solid var(--tan-3);
+    }
+    
+    .LineItem .qty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3vw;
+    }
+    
+    .LineItem .extPrice {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.3vw;
+    }
+    
+    .LineItem button {
+    margin: 0;
+    }
+
+    .LineItem .image {
+    height: 8vw;
+    width: 6vw;
+    font-size: 4vw;
+    background-color: var(--tan-1);
+    border: .1vmin solid var(--tan-3);
+    border-radius: 1vmin;
+  }
+
+    

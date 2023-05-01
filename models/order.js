@@ -13,7 +13,7 @@ const lineItemSchema = new Schema({
 
 lineItemSchema.virtual('extPrice').get(function() {
   // 'this' is bound to the lineItem subdoc
-  return this.qty * this.item.price;
+  return this.qty * this.book.price;
 });
 
 //*Order Schema
@@ -27,11 +27,11 @@ const orderSchema = new Schema({
 });
 
 orderSchema.virtual('orderTotal').get(function() {
-  return this.lineItems.reduce((total, item) => total + item.extPrice, 0);
+  return this.lineItems.reduce((total, book) => total + book.extPrice, 0);
 });
 
 orderSchema.virtual('totalQty').get(function() {
-  return this.lineItems.reduce((total, item) => total + item.qty, 0);
+  return this.lineItems.reduce((total, book) => total + book.qty, 0);
 });
 
 orderSchema.virtual('orderId').get(function() {
@@ -51,10 +51,10 @@ orderSchema.statics.getCart = function(userId) {
   );
 };
 
-orderSchema.methods.addItemToCart = async function(bookId) {
+orderSchema.methods.addBookToCart = async function(bookId) {
   const cart = this;
-  // Check if item already in cart
-  const lineItem = cart.lineItems.find(lineItem => lineItem.item._id.equals(bookId));
+  // Check if book already in cart
+  const lineItem = cart.lineItems.find(lineItem => lineItem.book._id.equals(bookId));
   if (lineItem) {
     lineItem.qty += 1;
   } else {

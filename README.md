@@ -10,16 +10,16 @@
 
 ## RoadMap
 
-# Trello Board
-![image](https://trello.com/b/7AhNmfs0/your-own-library)
+## Trello Board
+[Trello Board](https://trello.com/b/7AhNmfs0/your-own-library)
 
 # Entity Relationship Diagram
-![image](https://trello.com/b/7AhNmfs0/your-own-library)
+[Entity Relationship Diagram](https://trello.com/b/7AhNmfs0/your-own-library)
 
 # Wireframe
 
-![image](./files/Screen%20Shot%2004-27-23%20at%2007.03.18%20PM.PNG)
-![image](./files/Screen%20Shot%2004-27-23%20at%2007.03.25%20PM.PNG)
+![image](./assets/Screen%20Shot%2004-27-23%20at%2007.03.18%20PM.PNG)
+![image](./assets/Screen%20Shot%2004-27-23%20at%2007.03.25%20PM.PNG)
 
 # Built With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)

@@ -1,0 +1,22 @@
+.AuthPage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 2vmin;
+    background: url('../../../assets/background.jpg');
+    background-size: cover;
+  }
+  
+  .AuthPage h3 {
+    font-size: 3vmin;
+    margin: 4vmin;
+    text-align: center;
+    color: var(--text-light);
+    cursor: pointer;
+  }
+
+
+ 
