@@ -1,27 +1,29 @@
-import NewBook from "../../components/NewBook/NewBook";
+
 import styles from "./AdminOperations.module.css";
 import Logo from "../../components/Logo/Logo";
 import { Link } from 'react-router-dom';
 import UserLogOut from '../../components/UserLogOut/UserLogOut';
+import NewBook from '../../components/NewBook/NewBook';
 
 function AdminOperations({ user, setUser }) {
-   
-
+  
   return (
     <main className={styles.AdminOperations}>
       <aside>
         <Logo />
-        
-        <Link to="/admin/create" className="button btn-sm">
-          Create
+        <Link to="" className="button btn-sm">
+          CREATE
         </Link>
-        <Link to="/" className="button btn-sm">
+        <Link to="/orders/new" className="button btn-sm">NEW ORDER</Link>
+        <Link to="/orders" className="button btn-sm">PREVIOUS ORDERS</Link>
+        {/* <Link to="/" className="button btn-sm">
           Edit
-        </Link>
+        </Link> */}
         <UserLogOut user={user} setUser={setUser} />
       </aside>
-
       <NewBook />
+      
+      
     </main>
   );
 }

@@ -67,6 +67,9 @@ export default function NewOrderPage({ user, setUser }) {
     <main className={styles.NewOrderPage}>
       <aside>
         <Logo />
+        <Link to="/admin" className="button btn-sm">
+          Admin
+        </Link>
         <CategoryList
           categories={categoriesRef.current}
           cart={setCart}

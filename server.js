@@ -33,7 +33,7 @@ app.use(require('./config/checkToken'));
 app.use('/api/users', require('./routes/api/users'));
 app.use('/api/books', ensureLoggedIn, require('./routes/api/books'));
 app.use('/api/orders', ensureLoggedIn, require('./routes/api/orders'));
-
+app.use('/api/admin', ensureLoggedIn, require('./routes/api/admin'));
 
 // Put API routes here, before the "catch all" route
 // The following "catch all" route (note the *) is necessary

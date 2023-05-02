@@ -9,7 +9,16 @@ export default function NewBook(){
                     <br/>
                     Image: <input type="text" name="image"/>
                     <br/>
-                    Category: <input type="text" name="category"/>
+                    Category: 
+                    <select name="category">
+                        <option value="children">Children</option>
+                        <option value="fantasy">Fantasy</option>
+                        <option value="mystery">Mystery</option>
+                        <option value="horror">Horror</option>
+                        <option value="science">Science</option>
+                        <option value="history">History</option>
+                        <option value="exercise">Exercise</option>
+                    </select>
                     <br/>
                     Year: <input type="number" name="year"/>
                     <br/>
