@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-import { Routes, Route, Navigate} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 
 import NewOrderPage from './pages/NewOrderPage/NewOrderPage';
 import AuthPage from './pages/AuthPage/AuthPage';
@@ -31,7 +31,7 @@ function App() {
         
         {/* <Route path='/admin/new' element={ <NewBook/>} /> */}
 
-        <Route path='/*' element={<Navigate to='/orders/new' />}/>
+        {/* <Route path='/*' element={<Navigate to='/orders/new' />}/> */}
       </Routes>
       </>
      : 

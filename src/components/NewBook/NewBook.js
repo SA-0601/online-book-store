@@ -27,13 +27,13 @@ export default function NewBook(){
                     <br/>
                     Category: 
                     <select onChange={(e)=>onValueChange(e)} name="category">
-                        <option value="Children">Children</option>
-                        <option value="Fantasy">Fantasy</option>
-                        <option value="Mystery">Mystery</option>
-                        <option value="Horror">Horror</option>
-                        <option value="Science">Science</option>
-                        <option value="History">History</option>
-                        <option value="Exercise">Exercise</option>
+                        <option value="644fff083c825dce26a1b8e1">Children</option>
+                        <option value="644fff083c825dce26a1b8e2">Fantasy</option>
+                        <option value="644fff083c825dce26a1b8e3">Mystery</option>
+                        <option value="644fff083c825dce26a1b8e4">Horror</option>
+                        <option value="644fff083c825dce26a1b8e5">Science</option>
+                        <option value="644fff083c825dce26a1b8e6">History</option>
+                        <option value="644fff083c825dce26a1b8e7">Exercise</option>
                     </select>
                     <br/>
                     Year: <input onChange={(e)=>onValueChange(e)} type="number" name="year"/>
