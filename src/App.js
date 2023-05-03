@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import NewOrderPage from './pages/NewOrderPage/NewOrderPage';
 import AuthPage from './pages/AuthPage/AuthPage';
 import OrderHistoryPage from './pages/OrderHistoryPage/OrderHistoryPage';
-// import AllBooks from './pages/AllBooks/AllBooks';
+import ShowAllBooks from './pages/ShowAllBooks/ShowAllBooks';
 // import NavBar from './components/NavBar';
 
 import { getUser } from './utilities/users-service';
@@ -25,11 +25,13 @@ function App() {
       <Routes>
         <Route path='/orders/new' element={ <NewOrderPage user={user} setUser={setUser}/> }/>
         <Route path='/orders' element={ <OrderHistoryPage user={user} setUser={setUser}/> }/>
+        
         <Route path='/admin' element={ <AdminOperations user={user} setUser={setUser}/>} />
-        {/* <Route path='/admin/books' element={ <AllBooks user={user} setUser={setUser}/>} /> */}
+        <Route path='/admin/books' element={ <ShowAllBooks user={user} setUser={setUser} />} />
+        
         {/* <Route path='/admin/new' element={ <NewBook/>} /> */}
 
-        {/* <Route path='/*' element={<Navigate to='/orders/new' />}/> */} add navigate with router
+        {/* <Route path='/*' element={<Navigate to='/orders/new' />}/> */}
       </Routes>
       </>
      : 

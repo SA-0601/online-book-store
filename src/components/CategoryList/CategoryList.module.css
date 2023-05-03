@@ -20,6 +20,6 @@
     
     .CategoryList li.active {
     color: var(--text-dark);
-    background-color: var(--tan-1);
+    background-color: var(--white);
     border: .1vmin solid var(--tan-3);
     }

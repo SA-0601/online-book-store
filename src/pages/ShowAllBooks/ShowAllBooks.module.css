@@ -1,7 +1,7 @@
-.AllBooks {
+.ShowAllBooks {
     height: 100%;
     display: grid;
-    grid-template-columns: 1.6fr 3.5fr 3fr;
+    grid-template-columns: 1.6fr 3.5fr 4fr;
     grid-template-rows: 1fr;
     background-color: var(--tan-1);
     border-radius: 2vmin;
@@ -9,7 +9,7 @@
     background-size: cover;
   }
   
-  .AllBooks aside {
+  .ShowAllBooks aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

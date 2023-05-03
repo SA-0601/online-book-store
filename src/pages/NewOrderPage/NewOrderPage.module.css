@@ -5,8 +5,8 @@
     grid-template-rows: 1fr;
     background-color: var(--tan-1);
     border-radius: 2vmin;
-    background: url('../../../assets/backgroundneworderpage.jpg');
-    background-size: cover;
+    /* background: url('../../../assets/backgroundneworderpage.jpg');
+    background-size: cover; */
   }
   
   .NewOrderPage aside {

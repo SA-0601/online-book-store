@@ -1,14 +1,15 @@
 
-import styles from "./AdminOperations.module.css";
+import styles from "./ShowAllBooks.module.css";
 import Logo from "../../components/Logo/Logo";
 import { Link } from 'react-router-dom';
 import UserLogOut from '../../components/UserLogOut/UserLogOut';
-import NewBook from '../../components/NewBook/NewBook';
 
-function AdminOperations({ user, setUser }) {
+import AllBooks from "../../components/AllBooks/AllBooks";
+
+function ShowAllBooks({ user, setUser }) {
   
   return (
-    <main className={styles.AdminOperations}>
+    <main className={styles.ShowAllBooks}>
       <aside>
         <Logo />
         <Link to="/admin/books" className="button btn-sm">
@@ -28,11 +29,11 @@ function AdminOperations({ user, setUser }) {
         
         <UserLogOut user={user} setUser={setUser} />
       </aside>
-      <NewBook />
+      <AllBooks />
       
       
     </main>
   );
 }
 
-export default AdminOperations;
+export default ShowAllBooks;

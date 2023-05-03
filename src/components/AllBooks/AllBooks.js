@@ -3,7 +3,8 @@ import * as adminAPI from '../../utilities/admin-api';
 import styles from './AllBooks.module.css';
 
 
-export default function AllBooks({ user, setUser }) {
+
+export default function AllBooks() {
   const [books, setBooks] = useState([]);
   useEffect(function() {
 
@@ -14,8 +15,8 @@ export default function AllBooks({ user, setUser }) {
         getBooks();
       }, []);
   return (
-    <main className={styles.NewOrderPage}>
-      
+    <main className={styles.AllBooks}>
+    
       {books.map( (book) =>{
         return <h1>{book.name}</h1>
       })}
