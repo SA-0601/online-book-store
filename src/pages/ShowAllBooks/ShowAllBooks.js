@@ -18,10 +18,10 @@ function ShowAllBooks({ user, setUser }) {
         <Link to="/admin" className="button btn-sm">
           CREATE
         </Link>
-        <Link to="" className="button btn-sm">
+        <Link to="/admin/books" className="button btn-sm">
           EDIT
         </Link>
-        <Link to="" className="button btn-sm">
+        <Link to="/admin/books" className="button btn-sm">
           DELETE
         </Link>
         <Link to="/orders/new" className="button btn-sm">NEW ORDER</Link>

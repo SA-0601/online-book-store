@@ -1,6 +1,7 @@
 
 import * as adminAPI from '../../utilities/admin-api';
 import { useState } from 'react';
+import styles from './NewBook.module.css';
 export default function NewBook(){
     const [book, setBook] = useState([]);
     function onValueChange(event){
@@ -16,14 +17,14 @@ export default function NewBook(){
       }
     return (
         
-        <div>
+        <div className={styles.myform}>
         <h1>Create a New Book</h1>
        <form>
-                    Name: <input onChange={(e)=>onValueChange(e)} type="text" name="name"/>
+                    Name:<input onChange={(e)=>onValueChange(e)} type="text" name="name"/>
                     <br/>
-                    Author: <input onChange={(e)=>onValueChange(e)} type="text" name="author"/>
+                    Author:<input onChange={(e)=>onValueChange(e)} type="text" name="author"/>
                     <br/>
-                    Image: <input onChange={(e)=>onValueChange(e)} type="text" name="image"/>
+                    Image:<input onChange={(e)=>onValueChange(e)} type="text" name="image"/>
                     <br/>
                     Category: 
                     <select onChange={(e)=>onValueChange(e)} name="category">
@@ -36,9 +37,9 @@ export default function NewBook(){
                         <option value="644fff083c825dce26a1b8e7">Exercise</option>
                     </select>
                     <br/>
-                    Year: <input onChange={(e)=>onValueChange(e)} type="number" name="year"/>
+                    Year:<input onChange={(e)=>onValueChange(e)} type="number" name="year"/>
                     <br/>
-                    Price: <input onChange={(e)=>onValueChange(e)} type="number" name="price"/>
+                    Price:<input onChange={(e)=>onValueChange(e)} type="number" name="price"/>
                     <br/>
                     <input onClick={handleSubmit} type="submit" value="Create new Book" />
                 </form>
