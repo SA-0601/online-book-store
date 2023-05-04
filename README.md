@@ -3,10 +3,10 @@
 ## About The Project 
 
 # Deployed Project
-[Live Link for Book Store](https://shubha-agrawal-portfolio.netlify.app)
+[Live Link for Book Store](https://shubha-online-book-store.herokuapp.com/)
 
 **Objective** 
-“Books are a uniquely portable magic.” So anyone who is fond of books can buy from your own book store with affordable prices as we know books are best friends for everyone.
+“Books are a uniquely portable magic.” So anyone who is fond of books can buy from your own book store with ease as we know books are best friends for everyone.
 
 ## RoadMap
 
@@ -14,7 +14,7 @@
 [Trello Board](https://trello.com/b/7AhNmfs0/your-own-library)
 
 # Entity Relationship Diagram
-[Entity Relationship Diagram](https://trello.com/b/7AhNmfs0/your-own-library)
+[Entity Relationship Diagram](./assets/ERD.PNG)
 
 # Wireframe
 
@@ -50,11 +50,13 @@ Shubha Agrawal
 ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)    
 [LinkedIn Profile](https://www.linkedin.com/in/shubha-jindal-agrawal/)
 
+# Future Enhancements
+* Create the full Admin functionality.
+
 # Resources:
 * [Unsplash for images](https://unsplash.com/)
-* [React-icons](https://react-icons.github.io/react-icons)
-* [React-bootstrap](https://react-bootstrap.netlify.app/getting-started/introduction)
-* [React-Marquee](https://www.react-fast-marquee.com/)
-* [Netlify to deploy](https://app.netlify.com/)
+* [Heroku to deploy](https://www.heroku.com)
+* SEI Cafe
+
 
 
